@@ -14,17 +14,17 @@ HTML: Provides the structure of the game interface. CSS: Styles the game element
 
 Usage:
 
-Clone the repository to your local machine. Open the index.html file in a web browser to start playing.
+Clone the repository to your local machine. Open the rock_paper_scissors.html file in a web browser to start playing.
 
 How to Play:
 
-Click on your choice (Rock, Paper, or Scissors). The computer will randomly select its choice. The winner of the round will be displayed, and the scores will be updated. Keep playing to see if you can beat the computer! Screenshots: Include screenshots of the game in action to showcase its appearance and gameplay.
+Click on your choice (Rock, Paper, or Scissors). The computer will randomly select its choice. the scores will be updated. Keep playing to see if you can beat the computer!
 
 Contributions:
 
 Contributions to this project are welcome. Feel free to fork the repository, make improvements, and submit pull requests.
 
-Author: MUHAMMAD USMAN
+Author: MISHIKA BHANDARI
 
 Acknowledgments:
 
