@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+h1 {
+    background-color: #071E22;
+    color: white;
+    height:5rem;
+    line-height: 5rem;  
+}
+
+.choice  {
+    width: 165px;
+    height:165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: darkslategrey;
+}
+img {
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : 3rem;
+    gap: 5rem;
+    font-size:2rem
+    
+}
+#user-score,#computer-score {
+    font-size:4rem;
+}
+.msg-container {
+    margin-top:2rem;
+    height:100px;
+    flex:-1;
+}
+#move {
+    display:inline;
+    background-color: #003249;
+    color:white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#resetGame{
+    display:inline;
+    margin-top:30px;
+    margin-left:170px;
+    bottom:0.01px;
+    transform:translate(-50%);
+    z-index:1000;
+    background-color: #003249;
+    color:white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+body{
+    background:  linear-gradient(135deg, #04183b, #2d4ed6 50%);
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+        min-height: 100vh;
+
+}
+footer {
+    margin-top: auto;
+    color:white;
+    background-color:black;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1300px) {
+    h1 {
+        font-size: 1.5rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .choices {
+        display: flex;
+        justify-content: center;   
+        align-items: center;       
+        flex-wrap: wrap;           
+        gap: 1.2rem;                
+        margin-top: 1.5rem;  
+        padding: 0 1rem;           
+    }
+
+    .choice {
+        width: 120px;
+        height: 120px;
+        flex-shrink: 0;            
+    }
+    img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .score {
+        flex-direction: row;       
+        flex-wrap: wrap;           
+        gap: 2rem;
+        font-size: 1.5rem;
+        margin-top: 1.5rem; /* Gap kam */
+    }
+
+    #user-score, #computer-score {
+        font-size: 3rem;
+    }
+    #move {
+        font-size: 1.3rem;
+        padding: 0.5rem;
+    }
+
+    #resetGame {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin-bottom:200px;
+    }
+}
+
+
